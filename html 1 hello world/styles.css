@@ -1,0 +1,44 @@
+body {
+    background-image: url('univers.jpg');
+}
+
+.boite_1
+{
+    border-radius: 30px;
+    background-image: url('une-univers-age.jpeg');
+    padding: 10% 5% 10% 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.boite_2
+{
+    font-family: Arial, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+    background-color: #ffffff05;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(25px);
+    padding: 10%;
+    border-radius: 50px;
+}
+
+.boite_2 div{
+    width: 50%;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.boite_2 h1{
+    text-align: left;
+}
+
+.boite_2 p{
+    text-align: left;
+}
+

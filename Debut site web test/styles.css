@@ -1,0 +1,67 @@
+body{
+    background-color: #1B2223;
+}
+.menu{
+    display: flex;
+}
+.menu img{
+    height: 100px;
+    width: 100px;
+}
+.titre{
+    color: #F4FEFD;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    height: max-content;
+    margin: auto;
+    margin-top: 0;
+}
+a{
+    color: #F4FEFD;
+    text-decoration:none;
+    margin-right: 20px;
+}
+a:hover{
+    color: #FE3030;
+    border-bottom: solid 2.5px #FE3030;
+}
+.active {
+    color: #FE3030;
+    border-bottom: solid 2.5px #FE3030;
+    margin-top: 0px;
+}
+
+
+.boite_1{
+    border-radius: 30px;
+    background-image: url('Japon-Tokyo.jpg');
+    background-size: cover;
+    padding: 10% 5% 10% 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-color: white;
+    border-style: solid;
+
+}
+.boite_2{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    letter-spacing: 5px;
+    color: white;
+    backdrop-filter: blur(7px);
+    padding: 5%;
+    border-radius: 50px;
+}
+.boite_2 div{
+    width: 50%;
+    margin: auto;
+    padding-left: 45px;
+}
+.boite_2 h1{
+    text-align: center;
+}
+.boite_2 p{
+    text-align: center;
+}
